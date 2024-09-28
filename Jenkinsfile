@@ -1,5 +1,10 @@
 pipeline {
 	agent any
+
+	tools {
+		maven 'jenkins-maven'
+		dockerTool 'jenkins-docker'
+	}
 			
 	environment {
 		DOCKER_HUB_CREDENTIALS = 'docker_hub_token'
