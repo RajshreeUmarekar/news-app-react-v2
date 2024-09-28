@@ -9,7 +9,7 @@ pipeline {
 				stage('Build Node') {
 					steps {
 						checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/RajshreeUmarekar/news-app-react-v2']])
-						bat 'npm install'
+						bat 'npm install -f'
 					}
 				}
 				stage('Build Docker Image') {
