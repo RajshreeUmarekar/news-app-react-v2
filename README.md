@@ -6,8 +6,8 @@ A Full Stack Application build on java in backend using spring boot framework an
 
 Credentials Used:
 -----------------
-Default username: test
-Default password: test
+* Default username: test
+* Default password: test
 
 App Flow:
 ---------
